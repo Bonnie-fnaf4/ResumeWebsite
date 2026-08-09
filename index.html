@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Катугин Алексей — резюме</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container hero-grid">
+
+      <!-- ЛЕВО: аватарки + имя -->
+      <div class="hero-left">
+        <div class="avatar" id="avatarCarousel">
+          <!-- Место для реальных фото: замените блок .slide__ph на <img src="..." alt="Фото"> -->
+          <div class="avatar__track" id="avatarTrack">
+            <div class="avatar__slide is-active">
+              <img src="img/ava/1.png" alt="Фото 1">
+              <span class="slide__tag">Фото 1</span>
+            </div>
+            <div class="avatar__slide">
+              <img src="img/ava/2.png" alt="Фото 2">
+              <span class="slide__tag">Фото 2</span>
+            </div>
+            <div class="avatar__slide">
+              <img src="img/ava/3.png" alt="Фото 3">
+              <span class="slide__tag">Фото 3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-id">
+          <h1 class="hero-name">Катугин Алексей</h1>
+          <p class="hero-age">24 года</p>
+          <p class="hero-role">Разработчик · Unity / Веб</p>
+        </div>
+      </div>
+
+      <!-- ПРАВО: опыт работы -->
+      <div class="hero-right">
+        <h2 class="section-title">Опыт работы: 5 лет 3 месяца</h2>
+        <div class="work-list">
+
+          <article class="work-card">
+            <button class="work-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="work-card__head">
+              <div class="work-card__logo work-card__logo--1">D</div>
+              <div class="work-card__meta">
+                <h3 class="work-card__company">D2D Studio</h3>
+                <p class="work-card__role">Unity-разработчик · Март 2025 — Февраль 2026 · 1 год</p>
+              </div>
+            </div>
+            <p class="work-card__short">
+              Должность: Lead / Senior Unity Developer (ключевой разработчик). Проект: My Perfect Date — крупный игровой проект, несколько крупных итераций/релизов.
+            </p>
+            <div class="work-card__details">
+              <ul class="work-card__list">
+                <li><strong>Архитектура и логика:</strong> проектировал и реализовывал ключевые игровые системы, включая сложную логику предметов и AI-поведение персонажей.</li>
+                <li><strong>Оптимизация:</strong> проводил комплексную оптимизацию производительности игры (CPU, GPU, memory management) для стабильной работы на целевых платформах.</li>
+                <li><strong>UI и визуал:</strong> настраивал и интегрировал игровой UI/UX, работал с анимациями для плавного игрового процесса.</li>
+                <li><strong>R&amp;D и рефакторинг:</strong> переносил и адаптировал проект через несколько крупных технологических итераций и обновлений. Анимации делал через Umotion.</li>
+                <li><strong>Командное взаимодействие:</strong> core-разработчик в мини-команде (2–4 программиста), координировал технические процессы и системные интеграции.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <button class="work-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="work-card__head">
+              <div class="work-card__logo work-card__logo--2">О</div>
+              <div class="work-card__meta">
+                <h3 class="work-card__company">Ollie Games</h3>
+                <p class="work-card__role">Middle Unity Developer · 2021-2025 год</p>
+              </div>
+            </div>
+            <p class="work-card__short">
+              Короткое описание: чем занимался в компании. Полный список обязанностей раскрывается при наведении.
+            </p>
+            <div class="work-card__details">
+              <ul class="work-card__list">
+                <li><strong>Разработка игровых систем и AI:</strong> Реализовывал логику основных игровых механик, поведение ИИ-помощников (ботов) и алгоритмы взаимодействия объектов.</li>
+                <li><strong>Математика и экономика:</strong> Программировал гибкие формулы динамического ценообразования и баланса ресурсов, зависящие от прогресса игрока. Интегрировал многовалютные экосистемы.</li>
+                <li><strong>Оптимизация и портирование (Mobile & WebGL):</strong> Оптимизировал игры под мобильные платформы iOS/Android с тестированием на реальных устройствах. Успешно портировал коммерческие проекты (например, MyMiniMart) под WebGL для интеграции на веб-платформы (включая YouTube Playables).</li>
+                <li><strong>Работа с UI и визуалом:</strong> Занимался глубокой переработкой и оптимизацией UI-систем (например, в Basket Battle), настройкой анимаций и визуальных эффектов.</li>
+                <li><strong>Мультиплеер и Fullstack (Telegram-игры):</strong> Участвовал в создании и прототипировании многопользовательских (multiplayer) Telegram-проектов; самостоятельно разрабатывал серверную логику и бэкенд на C# для поддержки сетевого взаимодействия.</li>
+                <li><strong>Командное взаимодействие:</strong> Регулярно выпускал проекты в небольших кросс-функциональных командах (программист, геймдизайнер, художник). На крупных этапах координировал интеграцию фич, UI-окон и эффектов от других разработчиков в единый билд.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <button class="work-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="work-card__head">
+              <div class="work-card__logo work-card__logo--3">S</div>
+              <div class="work-card__meta">
+                <h3 class="work-card__company">Sonnyk</h3>
+                <p class="work-card__role">Unity 3D Developer · Январь 2025 - сейчас</p>
+              </div>
+            </div>
+            <p class="work-card__short">
+              Короткое описание: чем занимался в компании. Полный список обязанностей раскрывается при наведении.
+            </p>
+            <div class="work-card__details">
+              <ul class="work-card__list">
+                <li><strong>Разработка механик перемещения (Movement):</strong> На протяжении года успешно дорабатывал, расширял и полировал сложную физическую систему перемещения персонажа с элементами паркура в 3D-пространстве.</li>
+                <li><strong>Техническая анимация: Плотно взаимодействую с командой 3D-художников;</strong> Плотно взаимодействую с командой 3D-художников; самостоятельно создаю и интегрирую качественные анимации движений персонажа (Character Animation System).</li>
+                <li><strong>Настройка контроллеров:</strong> Настраивал плавные переходы между анимационными состояниями (Animator / Blend Trees) для достижения отзывчивого и динамичного управления (gameplay feel).</li>
+                <li><strong>Проектный формат:</strong> Работаю в автономном режиме частичной занятости (по выходным), успешно совмещая проект с основной деятельностью и закрывая технические спринты точно в срок.</li>
+                <li><strong>Тизер проекта в конце этого видео:</strong> https://www.youtube.com/watch?v=YA6SVr1tT7U</li>
+              </ul>
+            </div>
+          </article>
+
+          <div class="role-badges">
+        <span class="role-badge role-badge--violet">
+          <span class="role-badge__dot"></span>Unity разработчик
+        </span>
+            <span class="role-badge role-badge--blue">
+          <span class="role-badge__dot"></span>Backend C# разработчик
+        </span>
+            <span class="role-badge role-badge--green">
+          <span class="role-badge__dot"></span>Frontend TypeScript разработчик
+        </span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ГЛАВНЫЙ ПРОЕКТ -->
+  <section class="section main-project">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Мой главный проект</h2>
+        <span class="section-badge">My Perfect Date</span>
+      </div>
+
+      <div class="carousel-16" id="mainCarousel">
+        <!-- Место для реальных скриншотов: замените <div class="slide__ph--blue"> на <img src="..." alt=""> -->
+        <div class="carousel-16__track" id="mainTrack">
+          <div class="carousel-16__slide is-active">
+            <img src="img/myperfectdate/1.jpg" alt="My Perfect Date — скрин 1">
+            <div class="slide__cap">Скрин 1</div>
+          </div>
+          <div class="carousel-16__slide">
+            <img src="img/myperfectdate/2.jpg" alt="My Perfect Date — скрин 2">
+            <div class="slide__cap">Скрин 2</div>
+          </div>
+          <div class="carousel-16__slide">
+            <img src="img/myperfectdate/3.jpg" alt="My Perfect Date — скрин 3">
+            <div class="slide__cap">Скрин 3</div>
+          </div>
+          <div class="carousel-16__slide">
+            <img src="img/myperfectdate/4.jpg" alt="My Perfect Date — скрин 4">
+            <div class="slide__cap">Скрин 4</div>
+          </div>
+        </div>
+
+        <button class="carousel-16__btn carousel-16__btn--prev" data-car="main" aria-label="Назад">
+          <svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="carousel-16__btn carousel-16__btn--next" data-car="main" aria-label="Вперёд">
+          <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+
+        <div class="carousel-16__dots" id="mainDots"></div>
+      </div>
+
+      <!-- Моя роль в проекте -->
+      <div class="project-detail">
+        <h3 class="project-detail__title">Моя роль в проекте</h3>
+        <div class="project-detail__grid">
+          <div class="detail-card">
+            <span class="detail-card__emoji">🧩</span>
+            <h4 class="detail-card__name">Архитектура и логика</h4>
+            <p class="detail-card__text">Проектировал и реализовывал ключевые игровые системы, включая сложную логику предметов и AI-поведение персонажей.</p>
+          </div>
+          <div class="detail-card">
+            <span class="detail-card__emoji">⚡</span>
+            <h4 class="detail-card__name">Оптимизация</h4>
+            <p class="detail-card__text">Проводил комплексную оптимизацию производительности игры (CPU, GPU, memory management) для стабильной работы на целевых платформах.</p>
+          </div>
+          <div class="detail-card">
+            <span class="detail-card__emoji">🎨</span>
+            <h4 class="detail-card__name">UI и визуал</h4>
+            <p class="detail-card__text">Настраивал и интегрировал игровой UI/UX, а также работал с анимациями для создания плавного игрового процесса.</p>
+          </div>
+          <div class="detail-card">
+            <span class="detail-card__emoji">🔧</span>
+            <h4 class="detail-card__name">R&amp;D и рефакторинг</h4>
+            <p class="detail-card__text">Успешно переносил и адаптировал проект через несколько крупных технологических итераций и обновлений. Анимации делал через Umotion.</p>
+          </div>
+          <div class="detail-card">
+            <span class="detail-card__emoji">🤝</span>
+            <h4 class="detail-card__name">Командное взаимодействие</h4>
+            <p class="detail-card__text">Выступал в роли core-разработчика в мини-команде (2–4 программиста), координировал технические процессы и накладывал системные интеграции.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ДРУГИЕ ПРОЕКТЫ -->
+  <section class="section other-projects">
+    <div class="container">
+      <h2 class="section-title">Другие проекты</h2>
+
+      <div class="projects-grid">
+
+        <!-- Mining Rush: 2 скрина (9:16) -->
+        <article class="project-card">
+          <button class="project-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="project-card__screens project-card__screens--two">
+            <div class="project-card__screen">
+              <img src="img/mining%20rush/1.jpg" alt="Mining Rush — скрин 1">
+            </div>
+            <div class="project-card__screen">
+              <img src="img/mining%20rush/2.jpg" alt="Mining Rush — скрин 2">
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__name">Mining Rush</h3>
+            <p class="project-card__desc">Крупный игровой проект. Один из двух «отцов» проекта.</p>
+            <div class="project-card__details">
+              <h4 class="project-card__details-title">Что делал?</h4>
+              <ul class="project-card__list">
+                <li>Был одним из двух отцов проекта.</li>
+                <li>Создано большое количество обновлений: прокачка хелперов, добавление в карьер разных ископаемых, переработка тутора и много чего ещё. Проект был крупный.</li>
+              </ul>
+              <h4 class="project-card__details-title">Достижения</h4>
+              <ul class="project-card__list">
+                <li>Научился работать в команде c ещё одим программистом. Налаживали правила работы совместно над проектом</li>
+                <li>Научился пользоваться GitHub в команде так, чтобы было минимальное количество конфликтов по ходу разработки.</li>
+                <li>Работал с Miro.</li>
+                <li>Работал над оптимизацией проекта — использовал Memory Profiler.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <button class="project-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="project-card__screens project-card__screens">
+            <div class="project-card__screen">
+              <img src="img/ecolog/1.jpg" alt="Агроэколог VR — скрин 1">
+            </div>
+            <div class="project-card__screen">
+              <img src="img/ecolog/2.jpg" alt="Агроэколог VR — скрин 2">
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__name">Агроэколог VR </h3>
+            <p class="project-card__desc">VR проект для выставки в Москве</p>
+            <div class="project-card__details">
+              <h4 class="project-card__details-title">Что делал?</h4>
+              <ul class="project-card__list">
+                <li>Занимался разработкой проекта с нуля</li>
+                <li>Использовал лёгкий бесплатный ассет для создания машины, котору потом переделал собственно в трактор</li>
+                <li>Настраивал через New Input System управление через Руль и педали которые были у стенда</li>
+                <li>Помогал дистанционно настраивать стенд в Москве</li>
+              </ul>
+              <h4 class="project-card__details-title">Достижения</h4>
+              <ul class="project-card__list">
+                <li>Самое сложное было настроить Квест 3 и Руль с педалями, с чем я справился</li>
+                <li>Мой первый коммерческий опыт в VR, до этого только пед проекты были</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <button class="project-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="project-card__screens project-card__screens--two">
+            <div class="project-card__screen">
+              <img src="img/destructiontime/1.jpg" alt="Mining Rush — скрин 1">
+            </div>
+            <div class="project-card__screen">
+              <img src="img/destructiontime/2.jpg" alt="Mining Rush — скрин 2">
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__name">Destruction Time</h3>
+            <p class="project-card__desc">Разработал игру с нуля</p>
+            <div class="project-card__details">
+              <h4 class="project-card__details-title">Что делал?</h4>
+              <ul class="project-card__list">
+                <li>Разработал игру с нуля</li>
+                <li>Было создано больше количество
+                  обновлений, таких как добавление постройки зданий, добавления новых карт, добавление миссий и т.д.
+                </li>
+              </ul>
+              <h4 class="project-card__details-title">Достижения</h4>
+              <ul class="project-card__list">
+                <li>Научился работать с Zenject</li>
+                <li>Работал с RayFire и после чего оптимизировал большое количество кусков зданий которые он генерировал</li>
+                <li>Создавал анимированные ролики для рекламы игры с помошью Recorder</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <button class="project-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="project-card__screens project-card__screens--two">
+            <div class="project-card__screen">
+              <img src="img/pupaluparun/1.jpg" alt="Mining Rush — скрин 1">
+            </div>
+            <div class="project-card__screen">
+              <img src="img/pupaluparun/2.jpg" alt="Mining Rush — скрин 2">
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__name">Pupa Lupa Run</h3>
+            <p class="project-card__desc">Игра для Telegram</p>
+            <div class="project-card__details">
+              <h4 class="project-card__details-title">Что делал?</h4>
+              <ul class="project-card__list">
+                <li>Создавал фронтенд на Unity</li>
+                <li>Создавал бекенд на .Net</li>
+                <li>Поднимал сервер</li>
+                <li>Создавал бота в Telegram</li>
+              </ul>
+              <h4 class="project-card__details-title">Достижения</h4>
+              <ul class="project-card__list">
+                <li>Научился создавать Unity игры с клиент серверным взаимодействием</li>
+                <li>Научился писать бота в Telegram</li>
+                <li>Научился поднимать сервер и настраивать домен</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <button class="project-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="project-card__screens project-card__screens--two">
+            <div class="project-card__screen">
+              <img src="img/myminimart/1.jpg" alt="Mining Rush — скрин 1">
+            </div>
+            <div class="project-card__screen">
+              <img src="img/myminimart/2.jpg" alt="Mining Rush — скрин 2">
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__name">My Mini Mart</h3>
+            <p class="project-card__desc">Порт на YouTube</p>
+            <div class="project-card__details">
+              <h4 class="project-card__details-title">Что делал?</h4>
+              <ul class="project-card__list">
+                <li>Портировал игру под требования Youtube</li>
+                <li>Оптимизировал игру под WebGL</li>
+                <li>Переписывал сохранения под Youtube</li>
+                <li>Подключал SDK Youtube</li>
+              </ul>
+              <h4 class="project-card__details-title">Достижения</h4>
+              <ul class="project-card__list">
+                <li>Научился портировать большие игры под WebGL</li>
+                <li>Оптимизировал игру под разные устройства, в том числе под IOS и слабые Android</li>
+                <li>Научился работать с SKD Youtube</li>
+                <li>Оптимизировал размер оригинально билда с 200 мб до 15 мб которые просил Youtube</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <button class="project-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="project-card__screens project-card__screens--two">
+            <div class="project-card__screen">
+              <img src="img/DoctorHero/1.jpg" alt="Mining Rush — скрин 1">
+            </div>
+            <div class="project-card__screen">
+              <img src="img/DoctorHero/2.jpg" alt="Mining Rush — скрин 2">
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__name">Doctor Hero</h3>
+            <p class="project-card__desc">Порт на Poki</p>
+            <div class="project-card__details">
+              <h4 class="project-card__details-title">Что делал?</h4>
+              <ul class="project-card__list">
+                <li>Портировал игру под требования Poki</li>
+                <li>Оптимизировал игру под WebGL</li>
+                <li>Добавлял реварды от Poki</li>
+                <li>Добавлял SDK Poki</li>
+              </ul>
+              <h4 class="project-card__details-title">Достижения</h4>
+              <ul class="project-card__list">
+                <li>Научился портировать игры на Poki и работать с их SDK</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <button class="project-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="project-card__screens project-card__screens--two">
+            <div class="project-card__screen">
+              <img src="img/militaryattack/1.jpg" alt="Mining Rush — скрин 1">
+            </div>
+            <div class="project-card__screen">
+              <img src="img/militaryattack/2.jpg" alt="Mining Rush — скрин 1">
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__name">Military Attack</h3>
+            <p class="project-card__desc">Разработал игру с нуля</p>
+            <div class="project-card__details">
+              <h4 class="project-card__details-title">Что делал?</h4>
+              <ul class="project-card__list">
+                <li>Разработал игру с нуля</li>
+                <li>Написал систему состояний для ботов и игрока с логикой передвижения по карте
+                </li>
+              </ul>
+              <h4 class="project-card__details-title">Достижения</h4>
+              <ul class="project-card__list">
+                <li>Написал систему состояний для ботов.</li>
+                <li>Добавил инструментарий для геймдизайнера чтобы он сам мог создавать уровни</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <button class="project-card__toggle" aria-label="Развернуть / свернуть" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="project-card__screens project-card__screens--two">
+            <div class="project-card__screen">
+              <img src="img/farm/1.jpg" alt="Mining Rush — скрин 1">
+            </div>
+            <div class="project-card__screen">
+              <img src="img/farm/2.jpg" alt="Mining Rush — скрин 2">
+            </div>
+          </div>
+          <div class="project-card__body">
+            <h3 class="project-card__name">Farm Master</h3>
+            <p class="project-card__desc">Написал игру используя как основу Destruction Time и переделав ее под игру про ферму</p>
+            <div class="project-card__details">
+              <h4 class="project-card__details-title">Что делал?</h4>
+              <ul class="project-card__list">
+                <li>Написал игру используя как основу Destruction Time и переделав ее под игру про ферму</li>
+                <li>Добавлял SDK от издателя
+                </li>
+              </ul>
+              <h4 class="project-card__details-title">Достижения</h4>
+              <ul class="project-card__list">
+                <li>Написал свой шейдер для взаимодействия комбайна и поля</li>
+                <li>Создал большую систему из Scriptableobject для настройки прокачки, баланса и т.д.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- СТЕК -->
+  <section class="section stack-section">
+    <div class="container">
+      <h2 class="section-title">Мой стек</h2>
+
+      <div class="stack-grid">
+
+        <article class="stack-card stack-card--wide">
+          <div class="stack-card__head">
+            <div class="stack-card__icon stack-card__icon--violet">U</div>
+            <h3 class="stack-card__title">Игровой стек</h3>
+          </div>
+          <div class="chips">
+            <span class="chip">Unity 2019 → Unity 6</span>
+            <span class="chip">GitHub</span>
+            <span class="chip">GitLab</span>
+            <span class="chip">Zenject</span>
+            <span class="chip">Extenject</span>
+            <span class="chip">Android</span>
+            <span class="chip">VR</span>
+            <span class="chip">Meta Quest</span>
+            <span class="chip">WebGL</span>
+            <span class="chip">PC</span>
+            <span class="chip">Umotion</span>
+            <span class="chip">Particle System</span>
+            <span class="chip">Blend Tree (Animator)</span>
+            <span class="chip">Шейдеры URP</span>
+            <span class="chip">C# Backend</span>
+            <span class="chip">Docker</span>
+            <span class="chip">SQL · PostgreSQL</span>
+            <span class="chip">PUN 2</span>
+          </div>
+          <p class="stack-card__note">Большинство проектов — всегда на URP.</p>
+        </article>
+
+        <article class="stack-card">
+          <div class="stack-card__head">
+            <div class="stack-card__icon stack-card__icon--blue">💬</div>
+            <h3 class="stack-card__title">Коммуникация</h3>
+          </div>
+          <div class="chips">
+            <span class="chip">Telegram</span>
+            <span class="chip">Jira</span>
+            <span class="chip">Trello</span>
+            <span class="chip">Miro</span>
+            <span class="chip">Discord</span>
+          </div>
+        </article>
+
+        <article class="stack-card">
+          <div class="stack-card__head">
+            <div class="stack-card__icon stack-card__icon--orange">⌨️</div>
+            <h3 class="stack-card__title">IDE</h3>
+          </div>
+          <div class="chips">
+            <span class="chip">Visual Studio</span>
+            <span class="chip">Rider</span>
+          </div>
+          <p class="stack-card__note">Rider — если есть подписка, в целом пишу и на VS.</p>
+        </article>
+
+        <article class="stack-card stack-card--wide">
+          <div class="stack-card__head">
+            <div class="stack-card__icon stack-card__icon--green">AI</div>
+            <h3 class="stack-card__title">Стек AI</h3>
+          </div>
+          <ul class="ai-list">
+            <li class="ai-item">
+              <strong>Gemma 4 26B</strong> — развернута на моём ПК. Выручает в вебе: фронтенд и JS даются с трудом, поэтому использую её как справочник и инструмент для базовых вещей во фронтенде. В Unity верстаю отлично, а HTML/CSS/JS — не моя отрасль. Иногда помогает чинить базовые ошибки в конце рабочего дня.
+            </li>
+            <li class="ai-item">
+              <strong>Flux-2-Klein-base-4b-fp8</strong> — иногда генерирую картинки.
+            </li>
+            <li class="ai-item">
+              <strong>Fish_speech_dialog_full</strong> — умеет клонировать голос. Помогает, если в игре нужна тестовая озвучка персонажа.
+            </li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- СЕТАП -->
+  <section class="section setup-section">
+    <div class="container">
+      <h2 class="section-title">Мой сетап</h2>
+
+      <div class="setup-grid">
+        <article class="setup-card">
+          <div class="setup-card__head">
+            <span class="setup-card__emoji">🖥️</span>
+            <div>
+              <h3 class="setup-card__title">Комп</h3>
+              <p class="setup-card__sub">Основная рабочая машина</p>
+            </div>
+          </div>
+          <ul class="setup-list">
+            <li><span class="setup-list__label">CPU</span><span>Intel i7 14700KF</span></li>
+            <li><span class="setup-list__label">RAM</span><span>32 GB DDR5 6400</span></li>
+            <li><span class="setup-list__label">GPU</span><span>RTX 5070 Ti</span></li>
+          </ul>
+        </article>
+
+        <article class="setup-card">
+          <div class="setup-card__head">
+            <span class="setup-card__emoji">💻</span>
+            <div>
+              <h3 class="setup-card__title">Ноут</h3>
+              <p class="setup-card__sub">На командировки — Unity тянет спокойно</p>
+            </div>
+          </div>
+          <ul class="setup-list">
+            <li><span class="setup-list__label">CPU</span><span>Ryzen 5 3550H</span></li>
+            <li><span class="setup-list__label">RAM</span><span>32 GB DDR4 2400</span></li>
+            <li><span class="setup-list__label">GPU</span><span>GTX 1650</span></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__main">© 2026 Катугин Алексей · Сделано с любовью</p>
+      <p class="footer__note">
+        Все проекты, представленные на сайте, можно найти или можно было найти в открытом доступе,
+        а скриншоты взяты из публичных источников. Проекты, которые не были выпущены,
+        в портфолио не входят по соображениям NDA.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
