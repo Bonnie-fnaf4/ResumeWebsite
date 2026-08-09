@@ -137,6 +137,66 @@ body {
   color: var(--ink-soft);
 }
 
+/* --- Контакты --- */
+.contact-card {
+  margin-top: 24px;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: var(--shadow);
+}
+
+.contact-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 14px;
+}
+
+.contact-list { list-style: none; display: flex; flex-direction: column; gap: 2px; }
+
+.contact-item {
+  display: grid;
+  grid-template-columns: 28px 74px 1fr;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(28, 28, 30, 0.06);
+}
+
+.contact-item:last-child { border-bottom: none; }
+
+.contact-item__icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+}
+
+.contact-item__label {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.contact-item__value {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.contact-item__value[href]:hover { color: var(--accent); }
+
 /* --- Опыт работы --- */
 .work-list { display: flex; flex-direction: column; gap: 16px; }
 
@@ -315,6 +375,11 @@ body {
 .role-badge--violet { background: linear-gradient(135deg, #bf5af2, #7a2bf0); }
 .role-badge--blue   { background: linear-gradient(135deg, #1ea8ff, #0a66ff); }
 .role-badge--green  { background: linear-gradient(135deg, #59e68f, #0fae5a); }
+
+/* --- Стек внутри правой колонки --- */
+.hero-right .stack-grid { margin-bottom: 28px; }
+
+.hero-right .stack-card { padding: 20px; }
 
 .carousel-16 {
   position: relative;
